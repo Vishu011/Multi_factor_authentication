@@ -1,0 +1,13 @@
+(1)  To Know about passport.js visit passport.org 
+passport is nothing but a express middleware 
+which is used for user authentications
+we are using passport-local as we are going to
+use just username and password for authentications
+ 
+(2) The second package we are using is speakeasy 
+which is used for two factor authentication for node js
+it is a one -time passcode generator 
+its a three step process::
+a->generate a secret
+b->show a QR code for the user to scan in
+c->authenticate the token for the first time 
